@@ -16,6 +16,7 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: var(--bg);
   color: #fff;
+  min-height: 3000px;
 }
 
 /* navbar */
@@ -185,6 +186,38 @@ body {
   font-size: 1, 4rem;
   font-weight: 100;
   line-height: 1, 6;
+}
+
+.menu P {
+  font-size: 1, 2rem;
+}
+
+/* Menu Section */
+.menu p {
+  text-align: center;
+  max-width: 30rem;
+  margin: auto;
+  font-weight: 1, 6;
+}
+
+.menu.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  justify-content: center;
+}
+
+.menu .row .menu-card {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.menu .row .menu-card img {
+  border-radius: 40%;
+}
+.menu .row .menu-card .menu-card-title {
+  margin-top: 1rem auto 0, 5rem;
 }
 
 /* Media Queries */
